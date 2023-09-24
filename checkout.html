@@ -7,7 +7,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
-    <title>About - Organic Shop</title>
+    <title>Checkout - Organic Shop</title>
+    <style>
+      th,
+      td {
+        border: 1px solid #000000;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body>
     <!-- our header  -->
@@ -33,9 +40,7 @@
             <li><a href="about.html">About</a></li>
             <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
             <li>
-              <a href="http://127.0.0.1:5500/cart.html"
-                >£0.00 <i class="fa-solid fa-basket-shopping"></i
-              ></a>
+              <a href="#">£0.00 <i class="fa-solid fa-basket-shopping"></i></a>
             </li>
             <li>
               <a href="#"><i class="fa-solid fa-user"></i></a>
@@ -43,115 +48,107 @@
           </ul>
         </nav>
       </div>
-      <div>
-        <h1 style="text-align: center">About Us</h1>
-      </div>
     </header>
-    <!-- our about section  -->
-    <section>
-      <div style="display: flex">
-        <div>
-          <h2>We Are Your Favourite Store.</h2>
-          <p>
-            Organic food is the latest lifestyle trend where natural ingredients
-            are used to cultivate organic foods. These foods are free of toxins
-            and safe for consumption. Organic food has better nutritional value
-            when compared to chemically-treated food. The good news is you can
-            switch to sustainable organic food by checking out the websites for
-            organic food listed in this website.
-          </p>
-        </div>
-        <div>
-          <a href="#"
-            ><img src="./images/about/banner-01.jpg" alt="about section image"
-          /></a>
-        </div>
-      </div>
-    </section>
-    <!-- count of products  -->
-    <section>
-      <div
-        style="display: flex; justify-content: space-around; text-align: center"
-      >
-        <div>
-          <h2>Numbers Speak For Themselves!</h2>
-        </div>
-        <div>
-          <h2>5,000 +</h2>
-          <p>Curated Products</p>
-        </div>
-        <div>
-          <h2>800 +</h2>
-          <p>Curated Products</p>
-        </div>
-        <div>
-          <h2>40 +</h2>
-          <p>Product Categories</p>
-        </div>
-      </div>
-    </section>
-    <!-- product quality details -->
-    <section>
-      <div style="display: flex">
-        <div>
-          <img
-            src="./images/about/farming03-free-img-o9vzqvrix9ebgtwlxr5iwk27s1xblzkum1b4ivvlzc.jpg"
-            alt="product image"
-          />
-          <br />
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <i class="fa-solid fa-star"></i>
-          <p>
-            A five-star review should honestly reflect the reviewer's experience
-            with the product or service
-          </p>
-          <div style="display: flex">
-            <img
-              src="./images/reviews/client01-free-img.png"
-              alt="customer image"
-            />
-            <p>Mike Tim</p>
-          </div>
-        </div>
-        <div>
-          <div style="display: flex; margin-top: 100px">
-            <img
-              src="./images/about/organic-badge-freeimg.png"
-              alt="certified logo"
-            />
+    <!-- cart section  -->
+    <section style="margin-bottom: 20%">
+      <div>
+        <h1>Checkout</h1>
+        <hr />
+        <p>Have a coupon? Click here to enter your code</p>
+        <p>If you have a coupon code, please apply it below.</p>
+        <input type="text" placeholder="Coupon Code" />
+        <input type="submit" value="APPLY COUPON" />
+        <div style="display: flex; justify-content: space-around">
+          <form>
+            <h2>Billing details</h2>
+            <div style="display: flex; gap: 15px">
+              <div>
+                <label for="first-name">First name *</label><br />
+                <input type="text" id="first-name" />
+              </div>
+              <div>
+                <label for="last-name">Last name *</label><br />
+                <input type="text" id="last-name" />
+              </div>
+            </div>
             <div>
-              <h2>Certified Products</h2>
-              <p>
-                Product certification demonstrates our commitment to quality and
-                safety.
-              </p>
+              <label for="company-name"> Company name (optional)</label><br />
+              <input type="text" id="company-name" />
             </div>
-          </div>
+            <div>
+              <label for="country">Country / Region *</label><br />
+              <input type="text" id="country" value="Bangladesh" />
+            </div>
+            <div>
+              <label for="street-address">Street address *</label><br />
+              <input
+                type="text"
+                id="street-address"
+                placeholder="House number and street name"
+              />
+              <br />
+              <input
+                type="text"
+                id="street-address"
+                placeholder="Apartment, suite, unit, etc. (optional)"
+              />
+            </div>
+            <div>
+              <label for="town">Town / City *</label><br />
+              <input type="text" id="town" />
+            </div>
+            <div>
+              <label for="district">District *</label><br />
+              <input type="text" id="town" />
+            </div>
+            <div>
+              <label for="postcode">Postcode / ZIP (optional)</label><br />
+              <input type="text" id="postcode" />
+            </div>
+            <div>
+              <label for="phone">Phone *</label><br />
+              <input type="text" id="phone" />
+            </div>
+            <div>
+              <label for="email">Email address * </label><br />
+              <input type="email" id="email" />
+            </div>
+            <div>
+              <h3>Additional information</h3>
+              <hr />
+              <div>
+                <label for="textarea">Order notes (optional)</label><br />
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+              </div>
+            </div>
+          </form>
           <div>
-            <h2>We Deal With Various Quality Organic Products!</h2>
-            <div style="display: flex">
-              <ul>
-                <li>Fresh fruits</li>
-                <li>Dry fruits</li>
-                <li>Fresh vegetables</li>
-                <li>Dried vegetables</li>
-                <li>Dried vegetables</li>
-              </ul>
-              <ul>
-                <li>Beauty products</li>
-                <li>Milk products</li>
-                <li>Organic honey</li>
-                <li>Organic tea</li>
-              </ul>
-            </div>
-            <a href="#"
-              ><button>
-                <i class="fa-solid fa-cart-shopping"></i>START SHOPPING
-              </button></a
-            >
+            <h3>Your order</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Subtotal</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Assorted Coffee x 1</td>
+                  <td>£35.00</td>
+                </tr>
+                <tr>
+                  <td>Subtotal</td>
+                  <td>£35.00</td>
+                </tr>
+                <tr>
+                  <td>Total</td>
+                  <td>£35.00</td>
+                </tr>
+              </tbody>
+            </table>
+            <input type="radio" name="payments" />Check payments <br />
+            <input type="radio" name="payments" />Cash on delivery <br />
+            <input type="button" value="PLACE ORDER" />
           </div>
         </div>
       </div>
@@ -173,7 +170,7 @@
             <h3>Quick Links</h3>
             <ul>
               <li><a href="./about.html">About</a></li>
-              <li><a href="http://127.0.0.1:5500/cart.html">Cart</a></li>
+              <li><a href="./cart.html">Cart</a></li>
               <li>
                 <a href="http://127.0.0.1:5500/checkout.html">Checkout</a>
               </li>
