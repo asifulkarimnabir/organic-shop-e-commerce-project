@@ -8,6 +8,13 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
     />
     <title>Contact - Organic Shop</title>
+    <style>
+      th,
+      td {
+        border: 1px solid #000000;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body>
     <!-- our header  -->
@@ -33,9 +40,7 @@
             <li><a href="about.html">About</a></li>
             <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
             <li>
-              <a href="http://127.0.0.1:5500/cart.html"
-                >£0.00 <i class="fa-solid fa-basket-shopping"></i
-              ></a>
+              <a href="#">£0.00 <i class="fa-solid fa-basket-shopping"></i></a>
             </li>
             <li>
               <a href="#"><i class="fa-solid fa-user"></i></a>
@@ -43,74 +48,64 @@
           </ul>
         </nav>
       </div>
-      <div>
-        <h1 style="text-align: center; padding-bottom: 70px">Get In Touch</h1>
-      </div>
     </header>
-    <!-- our contact section  -->
-    <section>
-      <div
-        style="display: flex; justify-content: space-around; text-align: center"
-      >
-        <div style="border: 1px solid #3a3737; padding: 15px 45px 15px 45px">
-          <i class="fa-solid fa-phone"></i>
-          <p>+123 456 7890</p>
-          <p>+123 456 7891</p>
-        </div>
-        <div style="border: 1px solid #3a3737; padding: 15px 45px 15px 45px">
-          <i class="fa-solid fa-envelope"></i>
-          <p>info@example.com</p>
-          <p>support@example.com</p>
-        </div>
-        <div style="border: 1px solid #3a3737; padding: 15px 45px 15px 45px">
-          <i class="fa-solid fa-location-dot"></i>
-          <p>1569 Ave, New York,</p>
-          <p>NY 10028, USA</p>
-        </div>
-      </div>
-    </section>
-    <!-- count of products  -->
-    <section>
+    <!-- cart section  -->
+    <section style="margin-bottom: 20%">
       <div>
-        <h2 style="text-align: center">Frequently Asked Question!</h2>
-        <div
-          style="
-            display: flex;
-            justify-content: space-around;
-            text-align: center;
-          "
-        >
-          <div>
-            <h3>Should I buy organic vegetables?</h3>
-            <p>
-              Organic foods are generally good for you and for the environment.
-              Even though organic fruits and vegetables are more expensive than
-              conventional produce, the true long term benefits to health and
-              environment are suggested to be sizeable.
-            </p>
-            <h3>How do you identify organic vegetables?</h3>
-            <p>
-              Organic vegetables look similar to conventional vegetables. Since
-              there is no use of chemical fertilizers and pesticides, they may
-              often look natural, smaller, irregular and less attractive. A dot,
-              scar or hole is not uncommon. Identify by trusted source and not
-              the product.
-            </p>
-          </div>
-          <div>
-            <h3>Is organic food safer?</h3>
-            <p>
-              Organic farming does not employ chemical fertilizers & pesticides,
-              does not utilize sewage water and hence has lower pesticide
-              residues and contamination in food.
-            </p>
-            <h3>How do you know organic food is really organic?</h3>
-            <p>
-              The number one way to tell organic food is by its source – procure
-              from a reliable professional farmer organization that is
-              knowledgeable and trustworthy.
-            </p>
-          </div>
+        <h1>Cart</h1>
+        <form>
+          <table>
+            <thead>
+              <tr>
+                <th>dfsd</th>
+                <th>sdfsd</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Subtotal</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>*</td>
+                <td>
+                  <img
+                    src="./images/product-images/coffee-asorted-300x300.jpg"
+                    alt="assorted coffee image"
+                    width="50px"
+                  />
+                </td>
+                <td>Assorted Coffee</td>
+                <td>£35.00</td>
+                <td><input type="number" value="1" min="0" size="4" /></td>
+                <td>£35.00</td>
+              </tr>
+              <tr>
+                <td colspan="6">
+                  <input type="text" placeholder="Coupon Code" />
+                  <input type="submit" value="APPLY COUPON" />
+                  <button>UPDATE CART</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+        <!-- PROCEED TO CHECKOUT  -->
+        <div>
+          <h2>Cart totals</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td>Subtotal</td>
+                <td>£35.00</td>
+              </tr>
+              <tr>
+                <td>Total</td>
+                <td>£35.00</td>
+              </tr>
+            </tbody>
+          </table>
+          <a href="./checkout.html"><button>PROCEED TO CHECKOUT</button></a>
         </div>
       </div>
     </section>
@@ -131,7 +126,7 @@
             <h3>Quick Links</h3>
             <ul>
               <li><a href="./about.html">About</a></li>
-              <li><a href="http://127.0.0.1:5500/cart.html">Cart</a></li>
+              <li><a href="./cart.html">Cart</a></li>
               <li><a href="#">Checkout</a></li>
               <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
               <li><a href="./index.html">Home</a></li>
