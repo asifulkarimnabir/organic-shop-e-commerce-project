@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* reset classes */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --primary-text-color: #132043;
+  --secondary-text-color: #1f4172;
+  --accent-color: #4b527e;
+  --accent-color-dark: #2e4374;
+  --padding-inline-section: 20px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary-text-color);
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  /* font-size: 1.25rem; */
+  color: var(--secondary-text-color);
+  line-height: 1.5rem;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* utility classes */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+.company-logo {
+  margin-right: 20px;
+}
+.logo-with-links {
+  display: flex;
+  align-items: center;
+}
+.end-nav {
+  display: flex;
+  align-items: center;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+a.menu-links {
+  color: var(--primary-text-color);
+  padding: 10px;
+}
+.nav-icons {
+  color: var(--primary-text-color);
+  padding: 10px;
+}
+a.menu-links:hover {
+  color: #008000;
+  padding: 10px;
+}
+/* hero-section */
+.hero-container {
+  margin-top: 100px;
+}
+.hero-section {
+  display: flex;
+  max-width: 90%;
+  margin: auto;
+}
+.hero-section-intro {
+  padding-top: 80px;
+}
