@@ -69,11 +69,20 @@ a.menu-links {
 }
 a.menu-links:hover {
   color: #008000;
-  padding: 10px;
 }
 /* hero-section */
+main {
+  background-color: #e6e3e9;
+}
 .hero-container {
-  margin-top: 100px;
+  padding: 150px 0 100px 0;
+}
+.hero-section-background-img {
+  background: url(./images/logo-leaf-new.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-size: 400px 200px;
 }
 .hero-section {
   display: flex;
@@ -81,5 +90,28 @@ a.menu-links:hover {
   margin: auto;
 }
 .hero-section-intro {
-  padding-top: 80px;
+  padding: 60px 0 0 80px;
+  line-height: 3rem;
+}
+.hero-section-intro-p {
+  padding: 20px 0;
+}
+.cart-icon {
+  padding-right: 10px;
+}
+.hero-section-intro-button {
+  color: #ffffff;
+  background-color: #6a9739;
+  font-weight: 700;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero-section-intro-button:hover {
+  background-color: #75b82e;
+}
+/* elementor section */
+.elementor-section {
+  display: flex;
 }
