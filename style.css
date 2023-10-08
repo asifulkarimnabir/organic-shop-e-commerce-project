@@ -242,3 +242,44 @@ main {
 .discount-offer-container h3 {
   padding: 40px 0;
 }
+/* customer-reviews-container */
+.customer-reviews-container {
+  padding: 100px 0 50px 0;
+  background-color: #f5f4f7;
+  /* background-color: #e6e3e9; */
+}
+.customer-reviews-section {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+.reviews-section {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 45px;
+  line-height: 2.5rem;
+  box-shadow: 8px 8px 8px #a8a5a5;
+}
+.customer-reviews {
+  margin: 80px 20px 10px;
+}
+.customer-details {
+  margin: 20px 0;
+}
+.star-icon {
+  color: #ffbb1e;
+}
+.todays-deal {
+  color: #ffffff;
+  background: url(./images/reviews/sydney-rae-668606-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  backdrop-filter: blur(8px);
+  /* -webkit-filter: blur(2px); */
+}
+.todays-deal p {
+  color: #ffffff;
+  padding: 20px 0 40px;
+}
