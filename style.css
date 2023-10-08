@@ -165,21 +165,23 @@ main {
 }
 .product-categories-container {
   background-color: #e6e3e9;
-  padding: 100px 50px;
+  padding: 120px 0;
 }
 .product-categories-section {
-  /* background-color: #e6e3e9; */
   display: flex;
   justify-content: center;
   gap: 50px;
 }
 .product-categories {
-  border-radius: 5px;
+  border-radius: 10px;
   padding: 30px;
   text-align: center;
   line-height: 2rem;
   max-width: 350px;
   height: 400px;
+}
+.product-categories h3 {
+  padding-bottom: 10px;
 }
 .product-categories-1 {
   background: url(./images/product-categories/product11-free-img.jpg);
@@ -222,4 +224,21 @@ main {
 }
 .arrow-icon {
   padding-left: 10px;
+}
+/* discount-offer */
+.discount-offer-container {
+  text-align: center;
+  background-color: #e6e3e9;
+}
+.discount-offer {
+  background-color: #111111;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 60px 0;
+}
+.discount-offer h2 {
+  color: #ffffff;
+}
+.discount-offer-container h3 {
+  padding: 40px 0;
 }
