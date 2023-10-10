@@ -1,0 +1,114 @@
+.about-section h1 {
+  padding: 80px 0;
+  background-color: #e6e3e9;
+}
+.about-section {
+  text-align: center;
+  padding-bottom: 80px;
+}
+.about-section-heading {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  width: 90%;
+  margin: auto;
+}
+.about-section-details {
+  padding: 50px 0 0;
+}
+.about-section-details p {
+  padding: 20px 40px 0 0;
+}
+.about-section-banner img {
+  width: 600px;
+  margin: 20px 0;
+}
+/* count-of-products */
+.count-of-products {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 50px;
+  margin: 60px 0 100px;
+  background-color: #001524;
+  color: #ffffff;
+}
+.count-of-products p {
+  color: #ffffff;
+}
+/* product-quality-details */
+.product-quality-details {
+  display: flex;
+  width: 90%;
+  margin: auto;
+}
+.product-reviews {
+  text-align: center;
+  background-color: #f8f3f8;
+  border-radius: 6px;
+  padding: 0 40px 10px;
+  line-height: 2.5rem;
+  margin: 50px 0 150px;
+}
+.product-reviews-img {
+  border-radius: 6px;
+  position: relative;
+  bottom: 50px;
+}
+.product-reviews-position {
+  position: relative;
+  bottom: 40px;
+}
+.about-customer-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 0;
+}
+.about-customer-details img {
+  padding: 0 10px 0 0;
+}
+/* quality-details-container */
+.quality-details-container {
+  margin: 0 0 0 80px;
+}
+.quality-logo {
+  display: flex;
+  margin-top: 100px;
+}
+.quality-logo img {
+  width: 120px;
+}
+.quality-certified-text {
+  padding: 0 0 10px 20px;
+}
+.quality-certified-text h3 {
+  padding: 0 0 10px 0;
+}
+.certified-products h2 {
+  padding: 30px 0 20px;
+}
+.certified-products-list {
+  display: flex;
+  gap: 50px;
+  margin: 20px 0 0;
+}
+.certified-products-list li {
+  list-style: none;
+  padding: 10px;
+}
+.certified-products-list li i {
+  color: #85b452;
+}
+.certified-section-button {
+  color: #ffffff;
+  background-color: #6a9739;
+  font-weight: 700;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.certified-section-button:hover {
+  background-color: #75b82e;
+}
