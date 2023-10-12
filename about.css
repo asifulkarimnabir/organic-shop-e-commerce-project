@@ -28,7 +28,7 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  padding: 50px;
+  padding: 70px 40px;
   margin: 60px 0 100px;
   background-color: #001524;
   color: #ffffff;
@@ -91,7 +91,7 @@
 .certified-products-list {
   display: flex;
   gap: 50px;
-  margin: 20px 0 0;
+  margin: 20px 0 30px;
 }
 .certified-products-list li {
   list-style: none;
@@ -100,6 +100,7 @@
 .certified-products-list li i {
   color: #85b452;
 }
+
 .certified-section-button {
   color: #ffffff;
   background-color: #6a9739;

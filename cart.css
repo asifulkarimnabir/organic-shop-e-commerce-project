@@ -1,0 +1,92 @@
+.cart-container {
+  padding: 60px 70px 450px;
+  background-color: #e6e3e9;
+}
+.cart-title {
+  font-size: 1.875rem;
+  margin: 0 0 20px;
+}
+.cart-container form table {
+  width: 100%;
+}
+.cart-body td,
+.cart-header th {
+  padding: 20px;
+  text-align: center;
+}
+.cart-header tr {
+  background-color: #f7f8f7;
+}
+.cart-body tr {
+  background-color: #f1f0f3;
+}
+tr .product-quantity input {
+  width: 50px;
+  padding: 8px;
+  font-size: 1rem;
+  outline: none;
+  border: 1px dashed #bdb9b9;
+}
+/* .product-remove,
+.product-thumbnail,
+.product-name,
+.product-price,
+.product-quantity,
+.product-subtotal  */
+.cart-coupon {
+  display: flex;
+  justify-content: space-between;
+}
+.cart-coupon input {
+  padding: 10px;
+  outline: none;
+  border: 1px solid #bdb9b9;
+}
+.cart-coupon-button {
+  color: #ffffff;
+  background-color: #6a9739;
+  font-weight: 700;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.cart-coupon-button:hover {
+  background-color: #75b82e;
+}
+
+/* cart total PROCEED TO CHECKOUT section  */
+.cart-total {
+  margin: 30px 0 0;
+  border: 1px solid #bdb9b9;
+  float: right;
+  width: 48%;
+  border-radius: 5px;
+  /* padding: 20px; */
+}
+.cart-total h2 {
+  font-size: 1.35rem;
+  padding: 20px;
+  background-color: #eceeec;
+}
+.cart-total td {
+  padding: 20px 120px 20px 20px;
+}
+.cart-total a {
+  width: 100%;
+  padding: 20px;
+}
+.checkout-button {
+  color: #ffffff;
+  font-size: 1rem;
+  background-color: #6a9739;
+  font-weight: 700;
+  padding: 22px 34px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.checkout-button:hover {
+  background-color: #75b82e;
+}
