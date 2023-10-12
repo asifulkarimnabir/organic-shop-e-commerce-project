@@ -1,0 +1,61 @@
+.contact-section {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.contact-section h1 {
+  padding: 80px 0 180px;
+  background-color: #e6e3e9;
+}
+.contact-info-container {
+  text-align: center;
+  position: relative;
+  top: -140px;
+}
+.contact-info-container img {
+  position: relative;
+  bottom: -40px;
+  width: 150px;
+}
+.contact-info-section {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 50px -10px rgba(0, 0, 0, 0.13);
+  padding: 100px 40px 80px 40px;
+}
+.contact-info {
+  border: 1px solid #bdb9b9;
+  border-radius: 5px;
+  padding: 40px 90px;
+}
+.contact-info i {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+  color: #6a9739;
+}
+/* Frequently Asked Question */
+.asked-container {
+  padding-bottom: 100px;
+}
+.asked-section {
+  text-align: center;
+  padding-bottom: 35px;
+}
+.asked-section h2 {
+  padding: 0 0 20px;
+}
+.asked-info {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  gap: 20px;
+}
+.asked-details p {
+  padding: 10px 50px;
+}
