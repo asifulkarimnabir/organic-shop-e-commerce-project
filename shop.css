@@ -1,7 +1,9 @@
 .shop-container {
   display: flex;
-  max-width: 90%;
-  margin: auto;
+  /* max-width: 90%; */
+  /* margin: auto; */
+  padding: 0 80px;
+  background-color: #e6e3e9;
 }
 aside {
   padding-right: 40px;
@@ -79,9 +81,6 @@ aside img {
 .shop-products {
   padding: 0 0 40px;
   width: 290px;
-}
-.shop-products a {
-  width: 250px;
 }
 .shop-products img {
   width: 250px;

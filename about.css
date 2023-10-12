@@ -1,3 +1,6 @@
+header {
+  background-color: #e6e3e9;
+}
 .about-section h1 {
   padding: 80px 0;
   background-color: #e6e3e9;
@@ -49,7 +52,7 @@
 }
 .product-reviews {
   text-align: center;
-  background-color: #f8f3f8;
+  background-color: #e6e3e9;
   border-radius: 6px;
   padding: 0 40px 10px;
   line-height: 2.5rem;
