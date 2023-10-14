@@ -3,12 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-    />
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <title>Assorted Coffee - Organic Shop</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="product.css" />
     <style>
       #vertical-line {
         width: 1px;
@@ -16,98 +14,110 @@
         background-color: #4b4646;
         margin: 15px;
       }
-      .best-selling-products {
-        width: 310px;
-      }
     </style>
   </head>
   <body>
     <!-- our header  -->
     <header>
-      <div style="display: flex">
-        <div class="logo">
-          <a href="http://127.0.0.1:5500/index.html">
-            <img
-              src="./images/organic-store-logo5.svg"
-              alt="Organic Shop Logo"
-            />
-          </a>
+      <div class="container main-nav">
+        <div class="logo-with-links">
+          <a href="http://127.0.0.1:5500/index.html" class="company-logo">
+            <img src="./images/organic-store-logo5.svg" alt="Organic Shop Logo"
+          /></a>
+          <!-- nav bar  -->
+          <nav>
+            <ul class="nav-links">
+              <li>
+                <a href="http://127.0.0.1:5500/shop.html" class="menu-links"
+                  >Everything</a
+                >
+              </li>
+              <li>
+                <a
+                  href="http://127.0.0.1:5500/groceries.html"
+                  class="menu-links"
+                  >Groceries</a
+                >
+              </li>
+              <li>
+                <a href="http://127.0.0.1:5500/juice.html" class="menu-links"
+                  >Juice</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
-        <nav style="display: flex">
-          <ul style="list-style: none; display: flex; gap: 10px">
-            <li><a href="http://127.0.0.1:5500/shop.html">Everything</a></li>
+        <!-- nav bar  -->
+        <nav class="end-nav">
+          <ul class="nav-links">
+            <li><a href="about.html" class="menu-links">About</a></li>
             <li>
-              <a href="http://127.0.0.1:5500/groceries.html">Groceries</a>
-            </li>
-            <li><a href="http://127.0.0.1:5500/juice.html">Juice</a></li>
-          </ul>
-          <ul style="list-style: none; display: flex; gap: 10px">
-            <li><a href="http://127.0.0.1:5500/about.html">About</a></li>
-            <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
-            <li>
-              <a href="http://127.0.0.1:5500/cart.html"
-                >£0.00 <i class="fa-solid fa-basket-shopping"></i
-              ></a>
-            </li>
-            <li>
-              <a href="#"><i class="fa-solid fa-user"></i></a>
+              <a href="http://127.0.0.1:5500/contact.html" class="menu-links"
+                >Contact</a
+              >
             </li>
           </ul>
+          <a href="http://127.0.0.1:5500/cart.html" class="nav-icons"
+            >£0.00 <i class="fa-solid fa-basket-shopping"> </i
+          ></a>
+          <a href="#" class="nav-icons"><i class="fa-solid fa-user"></i></a>
         </nav>
       </div>
     </header>
     <!-- our individual product details  -->
-    <section style="display: flex">
-      <div style="display: flex">
-        <!-- product image  -->
-        <div style="width: 50%">
-          <figure>
-            <img
-              src="./images/product-images/coffee-asorted-300x300.jpg"
-              width="100%"
-              alt="product image"
-            />
-          </figure>
-        </div>
-        <!-- product intro -->
-        <div>
-          <h1>Assorted Coffee</h1>
-          <p>£35.00 + Free Shipping</p>
-          <p>
-            Try a variety of coffee flavors with our Assorted Coffee Powder Box.
-            This set includes 48 sachets of premium coffee powders, including
-            Turkish coffee powder.
-          </p>
-          <input type="number" value="1" min="1" style="padding: 5px" />
-          <a href="#">
-            <button>ADD TO CART</button>
-          </a>
-          <hr />
-          <p>
-            categories: <a href="./groceries.html">groceries</a>,
-            <a href="./juice.html">juice</a>
-          </p>
+    <section>
+      <div class="single-product-container">
+        <div class="single-product-section">
+          <!-- product image  -->
+          <div class="single-product-img">
+            <figure>
+              <img
+                src="./images/product-images/coffee-asorted-300x300.jpg"
+                width="100%"
+                alt="product image"
+              />
+            </figure>
+          </div>
+          <!-- product intro -->
+          <div class="product-intro">
+            <h1>Assorted Coffee</h1>
+            <p><span>£35.00 </span>+ Free Shipping</p>
+            <p>
+              Try a variety of coffee flavors with our Assorted Coffee Powder
+              Box. This set includes 48 sachets of premium coffee powders,
+              including Turkish coffee powder.
+            </p>
+            <input type="number" value="1" min="1" />
+            <a href="#">
+              <button>ADD TO CART</button>
+            </a>
+            <hr />
+            <p class="product-intro-links">
+              categories: <a href="./groceries.html">groceries</a>,
+              <a href="./juice.html">juice</a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
     <!-- description & reviews section  -->
-    <section>
+    <section class="description-reviews-container">
       <hr />
-      <div style="display: flex; gap: 10px">
+      <div class="description-reviews-section">
         <div>
-          <h2>Description</h2>
+          <h3>Description</h3>
         </div>
         <div>
-          <h2>Reviews(0)</h2>
+          <h3>Reviews(0)</h3>
           <p>There is no review yet.</p>
         </div>
       </div>
     </section>
     <!-- related products  -->
-    <section>
-      <div>
+    <section class="related-products">
+      <div class="related-products-container">
         <h2>Related products</h2>
-        <div style="display: flex; text-align: center">
+        <div class="related-products-section">
           <div class="best-selling-products">
             <figure>
               <img
@@ -116,7 +126,7 @@
               />
               <figcaption>Sanitizer</figcaption>
             </figure>
-            <h2>Hand Sanitizer</h2>
+            <h4>Hand Sanitizer</h4>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
@@ -132,7 +142,7 @@
               />
               <figcaption>Red Chillies</figcaption>
             </figure>
-            <h2>Handpicked Red Chillies</h2>
+            <h4>Handpicked Red Chillies</h4>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
@@ -148,7 +158,7 @@
               />
               <figcaption>Edible Oil</figcaption>
             </figure>
-            <h2>Natural Extracted Edible Oil</h2>
+            <h4>Natural Extracted Edible Oil</h4>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
             <i class="fa-regular fa-star"></i>
@@ -163,19 +173,25 @@
     </section>
     <!-- footer section  -->
     <footer>
-      <div style="background-color: rgb(3, 57, 82)">
-        <div style="display: flex">
-          <div>
+      <div class="footer-container">
+        <div class="footer-section">
+          <div class="footer footer-details">
             <a href="http://127.0.0.1:5500/index.html">
-              <img src="./images/organic-store-logo5.svg" alt="footer logo" />
+              <img
+                src="./images/footer/organic-store-white-logo.png"
+                alt="footer logo"
+              />
             </a>
-            <h3>
-              Certified Organic SourcesWe ensure that only high quality
-              certified organic ingredients are used in our products.
-            </h3>
+            <h4>
+              Certified Organic Sources. We ensure that only high quality
+              certified organic ingredients are used in our products.Maecenas mi
+              justo, interdum at consectetur vel, tristique et arcu. Ut quis
+              eros blandit, ultrices diam in, elementum ex. Suspendisse quis
+              faucibus urna. Suspendisse pellentesque.
+            </h4>
           </div>
-          <div>
-            <h3>Quick Links</h3>
+          <div class="footer footer-links">
+            <h3 id="quick-link">Quick Links</h3>
             <ul>
               <li><a href="about.html">About</a></li>
               <li><a href="http://127.0.0.1:5500/cart.html">Cart</a></li>
@@ -183,11 +199,11 @@
                 <a href="http://127.0.0.1:5500/checkout.html">Checkout</a>
               </li>
               <li><a href="http://127.0.0.1:5500/contact.html">Contact</a></li>
-              <li><a href="./index.html">Home</a></li>
+              <li><a href="#">Home</a></li>
               <li><a href="#">My account</a></li>
               <li><a href="#">Shop</a></li>
             </ul>
-            <h3>Site Links</h3>
+            <h3 class="site-link">Site Links</h3>
             <ul>
               <li><a href="#">Privacy Policy</a></li>
               <li><a href="#">Shipping Details</a></li>
@@ -195,36 +211,41 @@
               <li><a href="#">Terms & Conditions</a></li>
             </ul>
           </div>
-          <div>
+          <div class="footer footer-other-links">
             <h3>Download Our Mobile App</h3>
             <p>
               Users need to download the app, check food items listed in the
               app, and buy the items in the grocery store.
             </p>
-            <h3>Quick Links</h3>
+            <h3 class="site-link">Quick Links</h3>
             <ul>
               <li><a href="#">Know More About Us</a></li>
               <li><a href="#">Visit Store</a></li>
               <li><a href="#">Let's Connect</a></li>
               <li><a href="#">Locate Stores</a></li>
             </ul>
-            <div style="display: flex">
+            <div class="app-stores">
               <img src="./images/footer/play-store.png" alt="play-store logo" />
               <img src="./images/footer/app-store.png" alt="app-store logo" />
             </div>
           </div>
         </div>
         <hr />
-        <div style="display: flex; justify-content: space-between">
+        <div class="footer-copyright-section">
           <p>Copyright &copy; 2023 | Organic Shop</p>
           <div>
-            <i class="fa-brands fa-youtube"></i>
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-instagram"></i>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
           </div>
         </div>
       </div>
     </footer>
+    <!-- font-awesome -->
+    <script
+      src="https://kit.fontawesome.com/f90d864863.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

@@ -21,11 +21,11 @@
   background-color: #f1f0f3;
 }
 tr .product-quantity input {
-  width: 50px;
-  padding: 8px;
-  font-size: 1rem;
+  padding: 8px 0 8px 15px;
+  font-size: 1.1rem;
   outline: none;
-  border: 1px dashed #bdb9b9;
+  border: 1px solid #c5c1c1;
+  width: 55px;
 }
 /* .product-remove,
 .product-thumbnail,

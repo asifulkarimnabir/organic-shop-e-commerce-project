@@ -14,8 +14,10 @@ aside {
 }
 #product-search {
   padding: 12px;
+  font-size: 0.9rem;
   margin: 0 0 20px;
   outline: none;
+  border: 1px solid #c5c1c1;
 }
 .shop-button {
   padding: 14px;
@@ -38,8 +40,11 @@ aside {
   width: 100%;
 }
 .price-range {
-  padding: 8px;
+  padding: 10px;
+  font-size: 1.01rem;
   margin: 0 0 20px;
+  outline: none;
+  border: 1px solid #c5c1c1;
 }
 .aside-categories {
   padding: 20px 0 30px;
