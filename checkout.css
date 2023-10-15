@@ -1,0 +1,172 @@
+.checkout-container {
+  background-color: #f7f7fa;
+}
+.checkout-section {
+  width: 90%;
+  margin: auto;
+}
+.checkout-details {
+  padding: 50px 0 0 0;
+}
+.checkout-details h1 {
+  padding: 0 0 20px 0;
+  font-size: 1.9rem;
+}
+.checkout-details hr {
+  background-color: #9ad858;
+  height: 5px;
+}
+.coupon-open-text {
+  padding: 10px 0 10px 20px;
+  margin-bottom: 20px;
+}
+.coupon-color {
+  color: #9ad858;
+}
+.checkout-details input {
+  padding: 10px;
+  outline: none;
+  font-size: 1rem;
+  border: 1px solid #c5c1c1;
+  width: 20%;
+  margin: 20px 0 40px;
+}
+.checkout-details button {
+  color: #ffffff;
+  background-color: #6a9739;
+  font-weight: 700;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.checkout-details button:hover {
+  background-color: #75b82e;
+}
+/* billing-container */
+.billing-container {
+  display: flex;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+.billing-section {
+  width: 60%;
+}
+.billing-title {
+  padding: 20px 0 15px 0;
+}
+.billing-section label {
+  font-weight: 700;
+  color: #111111;
+}
+.user-names {
+  padding: 3px;
+  display: flex;
+  /* gap: 30px; */
+  margin: 20px 0 5px 0;
+}
+.user-name {
+  width: 50%;
+  padding: 3px;
+}
+.user-first-name input {
+  padding: 12px;
+  font-size: 1.05rem;
+  width: 100%;
+  border: 1px dotted #c5c1c1;
+  outline: 0;
+}
+.user-last-name input {
+  padding: 12px;
+  font-size: 1.05rem;
+  width: 100%;
+  border: 1px dotted #c5c1c1;
+  outline: 0;
+}
+.billing-details {
+  padding: 6px;
+}
+.billing-details input {
+  padding: 12px;
+  font-size: 1.05rem;
+  width: 100%;
+  border: 1px dotted #c5c1c1;
+  outline: 0;
+}
+.billing-additional-info {
+  padding: 20px 6px 0;
+}
+.billing-additional-info h3 {
+  padding-bottom: 10px;
+}
+.textarea {
+  padding: 20px 6px 6px 6px;
+}
+.billing-details textarea {
+  padding: 12px;
+  font-size: 1.05rem;
+  width: 100%;
+  border: 1px dotted #c5c1c1;
+  outline: 0;
+}
+.street-address {
+  margin-bottom: 10px;
+}
+
+/* order section  */
+.order-container {
+  border: 2px solid #c5c1c1;
+  width: 40%;
+  height: 500px;
+}
+.order-container h3 {
+  padding: 30px 30px 20px;
+}
+.order-section {
+  padding: 0 32px;
+}
+.product-name {
+  width: 100%;
+  text-align: left;
+  padding: 14px 12px 14px 0;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #c5c1c1;
+}
+.subtotal {
+  padding: 14px 12px 14px 0;
+  text-align: right;
+  font-size: 1.05rem;
+  border-bottom: 1px solid #c5c1c1;
+}
+.product-price-total {
+  width: 100%;
+  text-align: left;
+  padding: 14px 12px 14px 0;
+  font-size: 1.05rem;
+  border-bottom: 1px solid #c5c1c1;
+}
+/* payment-items */
+.payment-items {
+  padding: 30px 0 0;
+  font-size: 1.07rem;
+}
+.payment-items input {
+  margin: 10px 10px 10px 0;
+}
+.payment-items a {
+  margin-top: 25px;
+  width: 100%;
+}
+.place-order-button {
+  color: #ffffff;
+  background-color: #6a9739;
+  font-weight: 700;
+  padding: 17px 34px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+.place-order-button:hover {
+  background-color: #75b82e;
+}

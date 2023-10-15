@@ -40,7 +40,8 @@ tr .product-quantity input {
 .cart-coupon input {
   padding: 10px;
   outline: none;
-  border: 1px solid #bdb9b9;
+  font-size: 1rem;
+  border: 1px solid #c5c1c1;
 }
 .cart-coupon-button {
   color: #ffffff;

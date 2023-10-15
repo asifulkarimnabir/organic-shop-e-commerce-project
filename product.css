@@ -52,10 +52,11 @@
   background-color: #f7f7fa;
   padding: 0 0 50px;
 }
-
-.description-reviews-section {
+.description-reviews {
   width: 90%;
   margin: auto;
+}
+.description-reviews-section {
   display: flex;
   gap: 10px;
 }
@@ -78,4 +79,7 @@
 .related-products-section {
   display: flex;
   text-align: center;
+}
+.line-throughs {
+  text-decoration: line-through;
 }
