@@ -11,28 +11,26 @@
   <body>
     <!-- our header  -->
     <header>
-      <div class="container main-nav">
-        <div class="logo-with-links">
+      <div class="main-nav">
+        <div class="nav-items">
           <a href="http://127.0.0.1:5500/index.html" class="company-logo">
             <img src="./images/organic-store-logo5.svg" alt="Organic Shop Logo"
           /></a>
           <!-- nav bar  -->
-          <nav>
-            <ul class="nav-links">
+          <nav class="nav-links">
+            <ul>
               <li>
-                <a href="http://127.0.0.1:5500/shop.html" class="menu-links"
+                <a href="http://127.0.0.1:5500/shop.html" class="menu-link"
                   >Everything</a
                 >
               </li>
               <li>
-                <a
-                  href="http://127.0.0.1:5500/groceries.html"
-                  class="menu-links"
+                <a href="http://127.0.0.1:5500/groceries.html" class="menu-link"
                   >Groceries</a
                 >
               </li>
               <li>
-                <a href="http://127.0.0.1:5500/juice.html" class="menu-links"
+                <a href="http://127.0.0.1:5500/juice.html" class="menu-link"
                   >Juice</a
                 >
               </li>
@@ -40,20 +38,24 @@
           </nav>
         </div>
         <!-- nav bar  -->
-        <nav class="end-nav">
-          <ul class="nav-links">
-            <li><a href="about.html" class="menu-links">About</a></li>
-            <li>
-              <a href="http://127.0.0.1:5500/contact.html" class="menu-links"
-                >Contact</a
-              >
-            </li>
-          </ul>
-          <a href="http://127.0.0.1:5500/cart.html" class="nav-icons"
-            >£0.00 <i class="fa-solid fa-basket-shopping"> </i
+        <div class="nav-items">
+          <nav class="nav-links">
+            <ul>
+              <li><a href="about.html" class="menu-link">About</a></li>
+              <li>
+                <a href="http://127.0.0.1:5500/contact.html" class="menu-link"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <a href="http://127.0.0.1:5500/cart.html" class="menu-link"
+            ><span class="nav-price">£0.00 </span>
+            <i class="fa-solid fa-basket-shopping basket-icon"> </i
           ></a>
-          <a href="#" class="nav-icons"><i class="fa-solid fa-user"></i></a>
-        </nav>
+          <a href="#" class="menu-link"><i class="fa-solid fa-user"></i></a>
+          <a href="#" class="nav-toggle"><i class="fa-solid fa-bars"></i></a>
+        </div>
       </div>
     </header>
     <!-- our shop section  -->
