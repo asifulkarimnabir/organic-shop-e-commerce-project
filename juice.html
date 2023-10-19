@@ -7,6 +7,7 @@
     <title>Juice Archives - Organic Shop</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="shop.css" />
+    <link rel="stylesheet" href="media-queries.css" />
   </head>
   <body>
     <!-- our header  -->
@@ -60,18 +61,20 @@
     </header>
     <!-- our juice section  -->
     <section class="shop-container">
+      <!-- aside section  -->
       <div class="shop-aside-section">
-        <!-- aside section  -->
         <aside>
-          <input
-            type="text"
-            name=""
-            id="product-search"
-            placeholder="Search products.."
-          />
-          <button class="shop-button">
-            <i class="fa-solid fa-greater-than"></i>
-          </button>
+          <div class="aside-input">
+            <input
+              type="text"
+              name=""
+              id="product-search"
+              placeholder="Search products.."
+            />
+            <button class="shop-button">
+              <i class="fa-solid fa-greater-than"></i>
+            </button>
+          </div>
           <div class="filter-price">
             <label for="range">Filter by price</label><br />
             <input type="range" min="£10" max="£40" id="range" class="range" />
@@ -103,174 +106,176 @@
           <p>Wheat From Organic Farms</p>
           <p>£34.00</p>
         </aside>
-        <div id="vertical-line"></div>
       </div>
       <!-- shop products  -->
       <div class="shop-products-container">
-        <div class="shop-heading">
-          <p><a href="http://127.0.0.1:5500/index.html">Home </a> / Juice</p>
-          <h1>Juice</h1>
-          <div class="shop-showing-sorting">
-            <p>Showing 1-9 of 12 results</p>
-            <p>Default sorting</p>
+        <div id="vertical-line"></div>
+        <div>
+          <div class="shop-heading">
+            <p><a href="http://127.0.0.1:5500/index.html">Home </a> / Shop</p>
+            <h1>Shop</h1>
+            <div class="shop-showing-sorting">
+              <p>Showing 1-9 of 12 results</p>
+              <p>Default sorting</p>
+            </div>
           </div>
-        </div>
-        <div class="shop-products-section">
-          <div class="shop-products best-selling-products">
-            <figure>
-              <a href="./product.html"
-                ><img
-                  src="./images/product-images/coffee-asorted-300x300.jpg"
-                  alt="assorted coffee image"
-              /></a>
-              <figcaption>Assorted Coffee</figcaption>
-            </figure>
-            <h4><a href="./product.html">Assorted Coffee</a></h4>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <p>£35.00</p>
+          <div class="shop-products-section">
+            <div class="shop-products">
+              <figure>
+                <a href="./product.html"
+                  ><img
+                    src="./images/product-images/coffee-asorted-300x300.jpg"
+                    alt="assorted coffee image"
+                /></a>
+                <figcaption>Assorted Coffee</figcaption>
+              </figure>
+              <a href="./product.html"><h4>Assorted Coffee</h4></a>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>£35.00</p>
+            </div>
+            <div class="shop-products">
+              <figure>
+                <img
+                  src="./images/product-images/cashew-butter-500.jpg"
+                  alt="cashew-butter image"
+                  width="300px"
+                />
+                <figcaption>Butter</figcaption>
+              </figure>
+              <h4>Cashew Butter</h4>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p><span class="line-throughs"> £35.00 </span> £25.00</p>
+            </div>
+            <div class="shop-products">
+              <figure>
+                <img
+                  src="./images/product-images/diabetic-cookies-300x300.jpg"
+                  alt="red-chillie image"
+                />
+                <figcaption>Cookies</figcaption>
+              </figure>
+              <h4>Diabetic Cookies</h4>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p><span class="line-throughs"> £34.00 </span> £25.00</p>
+            </div>
           </div>
-          <div class="shop-products best-selling-products">
-            <figure>
-              <img
-                src="./images/product-images/cashew-butter-500.jpg"
-                alt="cashew-butter image"
-                width="300px"
-              />
-              <figcaption>Butter</figcaption>
-            </figure>
-            <h4>Cashew Butter</h4>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <p><span class="line-throughs"> £35.00 </span> £25.00</p>
+          <div class="shop-products-section">
+            <div class="shop-products">
+              <figure>
+                <img
+                  src="./images/product-images/eggs-300x300.jpg"
+                  alt="Farm Fresh Eggs image"
+                />
+                <figcaption>Fresh Eggs</figcaption>
+              </figure>
+              <h4>Farm Fresh Eggs</h4>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>£34.00</p>
+            </div>
+            <div class="shop-products">
+              <figure>
+                <img
+                  src="./images/product-images/orage-juice-kariz-300x300.jpg"
+                  alt="Fresh Orange Juice image"
+                />
+                <figcaption>Juice</figcaption>
+              </figure>
+              <h4>Fresh Orange Juice</h4>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>£18.00</p>
+            </div>
+            <div class="shop-products">
+              <figure>
+                <img
+                  src="./images/product-images/organic-honey-300x300.jpg"
+                  alt="Fresh Organic Honey image"
+                />
+                <figcaption>Organic Honey</figcaption>
+              </figure>
+              <h4>Fresh Organic Honey</h4>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>£34.00</p>
+            </div>
           </div>
-          <div class="shop-products best-selling-products">
-            <figure>
-              <img
-                src="./images/product-images/diabetic-cookies-300x300.jpg"
-                alt="red-chillie image"
-              />
-              <figcaption>Cookies</figcaption>
-            </figure>
-            <h4>Diabetic Cookies</h4>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <p><span class="line-throughs"> £34.00 </span> £25.00</p>
+          <div class="shop-products-section">
+            <div class="shop-products">
+              <figure>
+                <img
+                  src="./images/product-images/sanitizer-300x300.jpg"
+                  alt="sanitizer image"
+                />
+                <figcaption>Sanitizer</figcaption>
+              </figure>
+              <h4>Hand Sanitizer</h4>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>£15.00</p>
+            </div>
+            <div class="shop-products">
+              <figure>
+                <img
+                  src="./images/product-images/red-chillies-300x300.jpg"
+                  alt="red-chillie image"
+                />
+                <figcaption>Red Chillies</figcaption>
+              </figure>
+              <h4>Handpicked Red Chillies</h4>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p>£19.00</p>
+            </div>
+            <div class="shop-products">
+              <figure>
+                <img
+                  src="./images/product-images/edible-oil-300x300.jpg"
+                  alt="edible-oil image"
+                />
+                <figcaption>Edible Oil</figcaption>
+              </figure>
+              <h4>Natural Extracted Edible Oil</h4>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <p><span class="line-throughs"> £34.00 </span>£25.00</p>
+            </div>
           </div>
-        </div>
-        <div class="shop-products-section">
-          <div class="shop-products best-selling-products">
-            <figure>
-              <img
-                src="./images/product-images/eggs-300x300.jpg"
-                alt="Farm Fresh Eggs image"
-              />
-              <figcaption>Fresh Eggs</figcaption>
-            </figure>
-            <h4>Farm Fresh Eggs</h4>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <p>£34.00</p>
+          <div class="shop-page-counter">
+            <button>1</button>
+            <button>2</button>
+            <button><i class="fa-solid fa-arrow-right"></i></button>
           </div>
-          <div class="shop-products best-selling-products">
-            <figure>
-              <img
-                src="./images/product-images/orage-juice-kariz-300x300.jpg"
-                alt="Fresh Orange Juice image"
-              />
-              <figcaption>Juice</figcaption>
-            </figure>
-            <h4>Fresh Orange Juice</h4>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <p>£18.00</p>
-          </div>
-          <div class="shop-products best-selling-products">
-            <figure>
-              <img
-                src="./images/product-images/organic-honey-300x300.jpg"
-                alt="Fresh Organic Honey image"
-              />
-              <figcaption>Organic Honey</figcaption>
-            </figure>
-            <h4>Fresh Organic Honey</h4>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <p>£34.00</p>
-          </div>
-        </div>
-        <div class="shop-products-section">
-          <div class="shop-products best-selling-products">
-            <figure>
-              <img
-                src="./images/product-images/sanitizer-300x300.jpg"
-                alt="sanitizer image"
-              />
-              <figcaption>Sanitizer</figcaption>
-            </figure>
-            <h4>Hand Sanitizer</h4>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <p>£15.00</p>
-          </div>
-          <div class="shop-products best-selling-products">
-            <figure>
-              <img
-                src="./images/product-images/red-chillies-300x300.jpg"
-                alt="red-chillie image"
-              />
-              <figcaption>Red Chillies</figcaption>
-            </figure>
-            <h4>Handpicked Red Chillies</h4>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <p>£19.00</p>
-          </div>
-          <div class="shop-products best-selling-products">
-            <figure>
-              <img
-                src="./images/product-images/edible-oil-300x300.jpg"
-                alt="edible-oil image"
-              />
-              <figcaption>Edible Oil</figcaption>
-            </figure>
-            <h4>Natural Extracted Edible Oil</h4>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <i class="fa-regular fa-star"></i>
-            <p><span class="line-throughs"> £34.00 </span>£25.00</p>
-          </div>
-        </div>
-        <div class="shop-page-counter">
-          <button>1</button>
-          <button>2</button>
-          <button><i class="fa-solid fa-arrow-right"></i></button>
         </div>
       </div>
     </section>
